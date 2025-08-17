@@ -117,6 +117,11 @@ main(){
 		cout<<"this is 50"<<endl;
 	}
 
+
+
+	int f=30;
+
+	cout<<f;
 }
   
 

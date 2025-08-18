@@ -100,30 +100,66 @@ main(){
 //	cout <<""
 //}
 
-
-	int a=20;
 	
-	if(a==30){
-		
-		cout<<"this is 30"<<endl;
-	}
-	 if (a==20){
-		cout<<"this is 2nd 20 "<<endl;
-	}
-	 if (a==30){
-		cout<<"this is 30"<<endl;
-	}
-	 if  (a==50){
-		cout<<"this is 50"<<endl;
-	}
+//	int allcash=30;
+//	int yourcash=30;
+//	
+//	
+//	
+//	  if(allcash>yourcash){
+//		cout<<"sorry  you can not buy any thing here ";
+//		
+//}else if(allcash<yourcash){
+//		cout<<"you can buy just one thing";
+//		
+//}else if(allcash=>yourcash){
+//}
+//		cout<<"welcome to ak  supermarket  ";
+//}
 
+float num;
+cout<<"enter your number  :";
+cin>>num;
 
+ if (num<10 && num>=0){
+ 	cout<<"your is range in 10 ";
+ 	
+}else if(num>=11 && num<=20){
+ 	cout<<"your is range in 20";
 
-	int f=30;
+}else if(num>=21 && num<=30){
+ 	cout<<"your is range in 30";
 
-	cout<<f;
+}else cout<<"sorry your number is out of our range " ;
+	
+	
+	
+	
+	
+	
+	
 }
-  
+//}else if ((num=1)||(num>9))<<endl;
+//	cout<<"sorry your so small";
+	
+//}else if (a>10){
+//	cout<<"sorry your so small";
+//	
+//}else if (a<10){
+//	cout<<"sorry your so small";
+//	
+//}else if (a<10){
+//	cout<<"sorry your so small";
+//	
+//}else if (a<10){
+//	cout<<"sorry your so small";
+//}
+//	
+
+	
+	
+	
+
 
 
 

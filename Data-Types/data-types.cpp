@@ -117,28 +117,25 @@ main(){
 //		cout<<"welcome to ak  supermarket  ";
 //}
 
-float num;
-cout<<"enter your number  :";
-cin>>num;
+//float num;
+//cout<<"enter your number  :";
+//cin>>num;
+//
+// if (num<10 && num>=0){
+// 	cout<<"your is range in 10 ";
+// 	
+//}else if(num>=11 && num<=20){
+// 	cout<<"your is range in 20";
+//
+//}else if(num>=21 && num<=30){
+// 	cout<<"your is range in 30";
+//
+//}else cout<<"sorry your number is out of our range " ;
+//	
+	
 
- if (num<10 && num>=0){
- 	cout<<"your is range in 10 ";
- 	
-}else if(num>=11 && num<=20){
- 	cout<<"your is range in 20";
+	
 
-}else if(num>=21 && num<=30){
- 	cout<<"your is range in 30";
-
-}else cout<<"sorry your number is out of our range " ;
-	
-	
-	
-	
-	
-	
-	
-}
 //}else if ((num=1)||(num>9))<<endl;
 //	cout<<"sorry your so small";
 	
@@ -159,11 +156,36 @@ cin>>num;
 	
 	
 	
-
-
-
-
-
+	int m;
+	char e;
+	float cash;
 	
-	
+	cout<<"\n \n____________.welcome to your own super market.__________\n\n";
+
+	cout<< "\n   enter your cash : \n \n";
+    cin>>cash;
+ 	
+if (cash<=99 && cash>=0){
+	cout<<"\n \n      sorry, your cash is less then 100 you can not buy anyting here\n ";
+
+}else if (cash>=100){
+	cout<<"\n \n     welcome you can buy some thing here but not vary much\n\n";
+
+}
+
+	cout<<"\n \n       ***** mango:100Rs  apple:80Rs  banana:20Rs ******";
+ 	
+ cin>>m;
+ 
+  if(e<=m){
+	cout<<"\n \n       *****  mango:100Rs   ******";
+}	
+ 
+ 
+ 
+ 
+ 	
+ 	
+ 	
+}
 

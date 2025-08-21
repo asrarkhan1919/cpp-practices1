@@ -94,10 +94,11 @@ main(){
 	if (age<=12){dpercent=50;
 	
 }else if (age>=65){dpercent=30;
-//17 is equal 5 pm
-}else if (showtime<=17 ){dpercent=20;
 
-}else cout<<"the show ticket is 100";
+}else if (showtime<=17 &showtime>=16 ){dpercent=20;
+
+}else if (age>13&&age<64){cout<<"the show ticket is 100";
+}
 
 	
  float totaldiscount=ticketprice/100*dpercent;

@@ -21,26 +21,30 @@ using namespace std;
 	cin >>history;
 	
 
-   float totalm= english+science+history;
+   int totalm= english+science+history;
+   float avg = totalm / 3;
     
    
 
     cout <<"\n\n\n your name is     \t    "<<name<< endl; 
 	cout <<"\n your father name is  \t    "<<fname<< endl; 
-	cout <<"\n your total marks :   \t    "<<totalm<<endl;
+	cout <<"\n your total marks :   \t    "<<totalm<<endl; 
+	cout <<"\n your average marks :   \t    "<<avg<<endl;
+	
 	if (totalm>=95&&totalm<=100){cout<<"\n congratulation  you  got *:+A:* position \n";
 	
-	}else if (totalm>=90&&totalm<=94){cout<<" \n you  got *:A:* position \n";
+	}else if (avg>=90&&avg<=94){cout<<" \n you  got *:A:* position \n";
       
-    }else if (totalm>=80&&totalm<=89){cout<<" \n you  got *:B:* position \n";
+    }else if (avg>=80&&avg<=89){cout<<" \n you  got *:B:* position \n";
 	
-	}else if (totalm>=65&&totalm<=79){cout<<" \n you  got *:c:* position \n";
+	}else if (avg>=65&&avg<=79){cout<<" \n you  got *:c:* position \n";
 	
-	}else if (totalm>=55&&totalm<=64){cout<<" \n you  got *:d:* position \n";
+	}else if (avg>=55&&avg<=64){cout<<" \n you  got *:d:* position \n";
 	
-	}else if (totalm>55){cout<<" fail";
+	}else if (avg<55){
+	cout<<" failed";
 	
-	}if else cout<<
+	}
      
      
     

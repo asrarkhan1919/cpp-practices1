@@ -82,32 +82,37 @@ main(){
  
 	float ticketprice=100;
 	int age;
-    float dpercent=0.0;
+    int discount;
 	float showtime ;
 
 	
-	cout<<"\n___enter your age here_____\n";
+	cout<<"\n___enter your age here_____\t";
 	cin>>age;
-    cout <<"\n___enter your time in hu\n___";
+    cout <<"\n___enter your time in hu___\t ";
 	cin>>showtime;
 	
-	if (age<=12){dpercent=50;
-	
-}else if (age>=65){dpercent=30;
-//17 is equal 5 pm
-}else if (showtime<=17 ){dpercent=20;
-
-}else cout<<"the show ticket is 100";
-
-	
- float totaldiscount=ticketprice/100*dpercent;
-
-
+	if (age==12){
+		discount=(ticketprice/100)*50;
+    }
+ 
+ 	else if (age>=65){
+	 	discount=(ticketprice/100)*30;
+    }
+	 
+	if (showtime<=17 &&showtime>=15 ){
+		discount= discount + (ticketprice/100)*20;
+    }
+    
+//    cout<<"\n \n short time discount       :20% ";
+ 	cout<<"\n \n  **the show ticket is       :100Rs** ";
+ 	cout<<"  \n total discount            :"<< discount;
+    cout<<"   \n ticket price for you      :"<< ticketprice - discount;
   
-  float  totalprice=ticketprice-totaldiscount;	  
-//}else if (showtime<=5){(total_price-20;)}	  
-	  cout<<"\n___ total discount"<< totaldiscount;
-     cout<<"\n___ ticket price for you"<< totalprice;
+
+	
+  
+  
+
      
      
      

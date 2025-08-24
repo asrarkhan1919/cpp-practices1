@@ -13,8 +13,9 @@ main(){
   int age;
   
   int n=0;
-  cout<<"enter your age";
-  cin>>age;
+  cout<<"enter your age: ";
+  
+  
   while(n<10){
   cin>>age;
   if(age>18){
@@ -27,5 +28,10 @@ main(){
   	 
   
   }
-  	
-}
+  
+
+
+	
+	
+	}
+
